@@ -21,7 +21,7 @@ def filmek_szama(lista):
 
 def szo(lista):
     for i in range(0,len(lista),1):
-        if lista[i]=="szakács":
+        if lista[i].find("szakács")>=0:
             print("Van olyan film, amiben szerepel a “szakács” szó")
         else:
             print("Nincs olyan film, amiben szerepel a “szakács” szó")

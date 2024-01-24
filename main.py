@@ -11,6 +11,7 @@ print("\nII/b.")
 lk=sorozat.legkisebb(lista)
 print(f"\tA legkisebb elem: {lista[lk]}")"""
 
+
 lista=harmadik.beolvas()
 print("III/b.")
 harmadik.filmek_szama(lista)
